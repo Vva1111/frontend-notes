@@ -1,7 +1,7 @@
 # Obsidian
 
-# Vva's Obsidian Repo
-
+# Vva's Obsidian Repo 
+#### ( 26. 03 업무 관련 자료 완전 분리 )
 ## Dev Knowledge Base & TIL (Today I Learned) 
  
 이 레포지토리는 업무 외적인 개인 학습, 세미나 기록, 인프라 구축 실습, 그리고 다양한 기술적 트러블슈팅 과정을 마크다운으로 꾸준히 정리하고 있는 저장소입니다. 
