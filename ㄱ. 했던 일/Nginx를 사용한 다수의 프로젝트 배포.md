@@ -72,7 +72,7 @@
 ##### 2) docker-compose.yml 설정
 ![[Pasted image 20240723182137.png]]
 -  gitlab-runner cicd의 script 내부에서 build 후 생성된 정적 파일들이 보관되어있는 gitlab-runner 임시 컨테이너 내부와 volume으로 잡혀있던 host 시스템의 디렉토리를 nginx 컨테이너 내부의 home/dist 디렉토리와 한번 더 volume으로 잡아서 nginx 컨테이너 내부에서도 각 프로젝트 별로 빌드된 결과물 static 파일들을 참조할 수 있도록 한다.
-- /data/nginx/html(host) : /home/dist(nginx)
+- /data/nginx/html(host) : /home/dist (nginx)
 
 
 ### 이후 수정된 사항들
@@ -118,3 +118,10 @@
 
 ### 진행하며 알게 된 새로운 사실
 #### 1) Docker Host-Container 사이 Volume / Mount
+
+
+### 추가 사항 ( 26. 03. 19 ~ )
+### Volume 대안 방식
+- Dockerfile 을 사용한 이미지 빌드 시 COPY를 사용해 빌드 결과물을 이미지에 포함
+- ![[Pasted image 20260319110424.png]]
+- 이 방식을 사용하면 CICD 과정에서 GUI 코드 빌드 이후 해당 결과물을 바로 이미지 빌드에 포함시키기 때문에 artifacts, docker, gitlab-runner 의 볼륨 연결 방식 등에 대해서 신경 쓸 필요가 없어져서 복잡도와 코드가 줄어들 수 있다.
