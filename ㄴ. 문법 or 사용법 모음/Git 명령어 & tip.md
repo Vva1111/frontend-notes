@@ -156,6 +156,13 @@ git branch -r | grep -v '\->' | awk '{print $1}' | xargs -n 1 git branch -d -r
 - **git log --stat** : 각 커밋에서 변경된 파일의 목록과 각 파일에서 추가/삭제된 줄의 수를 보여준다.
 - **git log --oneline --graph** : 깃 로그를 그림으로 보여준다
 
+- **git log main..origin/main**
+	두 지점 사이의 차이점을 로그로 보는 명령어
+	
+	내 로컬의 main 브랜치에는 없지만, 원격 저장소(origin) 의 main 브랜치에는 있는 커밋들만 목록으로 보여달라는 의미의 명령어
+	
+	아직 업데이트 하지 않은 새로운 내용이 무엇인지 확인할 수 있는 명령어
+
 ###### **git show {커밋 아이디}**
 - 특정 커밋의 상세한 변경 사항을 보여준다 .
 
