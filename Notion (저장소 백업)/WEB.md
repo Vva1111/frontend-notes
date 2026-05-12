@@ -48,7 +48,7 @@
 
 [[여러 개념]]
 
-[[ㅁ. 기존 notion에 정리한 내용들 (정리중)/Notion/SQLite]]
+[[Notion (저장소 백업)/SQLite]]
 
 ---
 
