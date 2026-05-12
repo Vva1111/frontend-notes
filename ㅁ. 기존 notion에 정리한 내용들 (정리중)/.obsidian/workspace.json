@@ -1,0 +1,233 @@
+{
+  "main": {
+    "id": "011c366c8c87659a",
+    "type": "split",
+    "children": [
+      {
+        "id": "c0b8e789e1378498",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e10a0d0c28f9a9d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/이 우 석    이력서 ( 연봉 정보 있음 ) 3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "이 우 석    이력서 ( 연봉 정보 있음 ) 3"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "be912f877a2bb809",
+    "type": "split",
+    "children": [
+      {
+        "id": "77d6c15d2b174f39",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a97905e40bcca092",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "39413ea78ec782f8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "8499f7821fc07dfd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 497.5
+  },
+  "right": {
+    "id": "cc049da3aa4301f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "459a08b58094e401",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5896eccabf37d0dd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/이 우 석    이력서 ( 연봉 정보 있음 ) 3.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "이 우 석    이력서 ( 연봉 정보 있음 ) 3 의 백링크"
+            }
+          },
+          {
+            "id": "8e119cc30a74e9a3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/이 우 석    이력서 ( 연봉 정보 있음 ) 3.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "이 우 석    이력서 ( 연봉 정보 있음 ) 3 의 나가는 링크"
+            }
+          },
+          {
+            "id": "242bbae56a079764",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "4e37411569ef508c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "모든 속성"
+            }
+          },
+          {
+            "id": "8a1fa1e1612bcb92",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/이 우 석    이력서 ( 연봉 정보 있음 ) 3.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "이 우 석    이력서 ( 연봉 정보 있음 ) 3 의 개요"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false,
+      "obsidian-importer:Open Importer": false
+    }
+  },
+  "active": "e10a0d0c28f9a9d4",
+  "lastOpenFiles": [
+    "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/이 우 석    이력서 2.md",
+    "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/이 우 석    이력서 ( 연봉 정보 있음 ).md",
+    "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/이 우 석    이력서 ( 연봉 정보 있음 ) 2.md",
+    "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/이 우 석    이력서 3.md",
+    "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/이 우 석    이력서 5.md",
+    "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/9.2 Kubernetes의 개요.md",
+    "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/7. 코드를 작성하고 실행하기.md",
+    "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/6. 타입 선언과 @types.md",
+    "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/4. 호이스팅 - 스코프.md",
+    "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/3.2 웹 서버 작동.md",
+    "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/2.3 Docker의 기능.md",
+    "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/※ 틀린 정보가 있을 수 있음( 지속적으로 수정 중…).md",
+    "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/(추가) Docker Network의 구조에 대해.md",
+    "환영합니다!.md",
+    "153p.Docker_확장_기능_설치_후_모습.png",
+    "Untitled 397.png",
+    "153p.스니펫.png",
+    "84p.실행결과_1.png",
+    "81p.실행결과_1.png",
+    "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/5.6 파일 설정.md",
+    "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/5.5 환경 및 네트워크 설정.md",
+    "image 92.png",
+    "image 91.png",
+    "Dockerfile.txt",
+    "website.tar",
+    "Dockerfile.base",
+    "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/5.4 명령 및 데몬 실행.md",
+    "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/5.3 멀티스테이지 빌드를 사용한 애플리케이션 개발.md",
+    "Docker_이미지_레이어.png",
+    "155p.Dockerfile로_이미지_생성.png",
+    "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/5.2 Dockerfile의 빌드와 이미지 레이어.md",
+    "153p.VSCode에서_docker관련_확장기능_검색.png",
+    "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/5.1 Dockerfile을 사용한 구성 관리.md",
+    "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/2.4 Docker의 작동 구조.md",
+    "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/Garbage Collector가 동작하지 않는 경우(동작 방식에 대해).md",
+    "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/자바스크립트 내에서 파일 컨트롤 가능 여부.md",
+    "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/Symbol 값은 프로토타입을 사용한 조작이 가능한지.md",
+    "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/Virtual DOM ( Vue.js ).md",
+    "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6/Virtual DOM 생성 방식(React).md",
+    "이우석_데이터시각화_CICD_DevOps_이력서_경력기술서_(1).pdf",
+    "이우석_이력서_포트폴리오_통합지원서.pdf",
+    "Notion/Export-6349e6dc-cc3f-42c5-91cb-3895ca3499e6",
+    "Notion"
+  ]
+}

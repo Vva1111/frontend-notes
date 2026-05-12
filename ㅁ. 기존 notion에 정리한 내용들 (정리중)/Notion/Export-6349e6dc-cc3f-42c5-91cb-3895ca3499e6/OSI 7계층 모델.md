@@ -1,0 +1,1 @@
+- [OSI 7계층 모델](https://ko.wikipedia.org/wiki/OSI_%EB%AA%A8%ED%98%95)
