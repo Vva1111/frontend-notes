@@ -100,10 +100,8 @@
 
 [[List Comprehension]]
 
-[[함수]]
-
 [[파일 생성]]
 
 [[Random 패키지]]
 
-[[Class]]
+[[Python의 Class]]
