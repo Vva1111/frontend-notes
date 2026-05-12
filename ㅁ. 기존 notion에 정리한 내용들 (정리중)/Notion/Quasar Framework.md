@@ -2,7 +2,7 @@
 
 - q-table에서 각 column에 길이, 높이 등을 적용하는 방법
     
-    ![[Untitled 2.png]]
+    ![[ㄷ. 학습/SQLite/이미지/Untitled 2.png]]
     
     → headerStyle 속성의 경우, 최상단, 제일 첫번째(header)에 적용되는 style을 지정할 수 있다.
     

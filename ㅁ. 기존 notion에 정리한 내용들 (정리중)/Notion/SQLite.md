@@ -129,7 +129,7 @@
 
 1. SQLite의 대략적인 구조
 
-![[Untitled 3.png]]
+![[ㄷ. 학습/SQLite/이미지/Untitled 3.png]]
 
   
 
@@ -145,18 +145,18 @@
 
 - 컴파일러는 SQL 코드를 받아 bytecodes 로 구성해 VM으로 전달하고, VM에서 해당 bytecodes를 작동시킨다.
 
-![[Untitled 5.png]]
+![[ㄷ. 학습/SQLite/이미지/Untitled 5.png]]
 
 - SQLite에서 ‘준비된 명령문’, 즉, bytecodes를 처리하는 라이브러리의 첫 번째 부분,
     
     컴파일러(parser, codegenerate)
     
 
-![[Untitled 6.png]]
+![[ㄷ. 학습/SQLite/이미지/Untitled 6.png]]
 
 - 프로그램을 실행하는 라이브러리의 두 번째 부분
 
-![[Untitled 7.png]]
+![[ㄷ. 학습/SQLite/이미지/Untitled 7.png]]
 
 - Storage Engine - B-Tree 부터 OS Interface까지 부분
 
@@ -298,15 +298,15 @@
         > 
         > 위의 간단한 코드를 AST로 변환하면
         > 
-        > ![[Untitled 10.png]]
+        > ![[ㄷ. 학습/SQLite/이미지/Untitled 10.png]]
         > 
         > …
         > 
-        > ![[Untitled 11.png]]
+        > ![[ㄷ. 학습/SQLite/이미지/Untitled 11.png]]
         > 
         > …
         > 
-        > ![[Untitled 12.png]]
+        > ![[ㄷ. 학습/SQLite/이미지/Untitled 12.png]]
         > 
         > 와 같은 형태로 표현된다.
         > 
@@ -471,7 +471,7 @@
 
 1. Shim ( [https://en.wikipedia.org/wiki/Shim_(computing)](https://en.wikipedia.org/wiki/Shim_\(computing\)) )
 
-![[Untitled 13.png]]
+![[ㄷ. 학습/SQLite/이미지/Untitled 13.png]]
 
 - 압축, 로깅 및 암호화 담당, OS 계층을 에뮬레이션 하는데 사용한다. 하드웨어 오류를 시뮬레이션 하는 테스크에 사용된다.
 

@@ -48,7 +48,7 @@
 
 [[여러 개념]]
 
-[[SQLite]]
+[[ㅁ. 기존 notion에 정리한 내용들 (정리중)/Notion/SQLite]]
 
 ---
 

@@ -101,24 +101,24 @@
 ---
 
 1. SQLite의 대략적인 구조
-![[Untitled.png]]
+![[ㄷ. 학습/SQLite/이미지/Untitled.png]]
 
 ( YACC/Bison의 파서가 토크나이저를 호출하는 방식과는 다르게 토크나이저가 파서를 호출하는 방식도 가능하도록 설계되어 있다. )
 
 ( SQL 문을 포함하는 스트링이 실행될 때, 인터페이스는 스트링을 토크나이저로 전송한다. 이 토크나이저의 역할은 원래의 스트링을 쪼개어 토큰화하고 하나씩 파서로 전송한다. )
 
-![[Untitled 1.png]]
+![[ㄷ. 학습/SQLite/이미지/Untitled 1.png]]
 
 - 컴파일러는 SQL 코드를 받아 bytecodes 로 구성해 VM으로 전달하고, VM에서 해당 bytecodes를 작동시킨다.
 
-![[Untitled 2.png]]
+![[ㄷ. 학습/SQLite/이미지/Untitled 2.png]]
 
 - SQLite에서 ‘준비된 명령문’, 즉, bytecodes를 처리하는 라이브러리의 첫 번째 부분,
     
     컴파일러(parser, codegenerate)
     
 
-![[Untitled 3.png]]
+![[ㄷ. 학습/SQLite/이미지/Untitled 3.png]]
 
 - 프로그램을 실행하는 라이브러리의 두 번째 부분
 
@@ -159,7 +159,7 @@
             
             ( *FTS5 : DB 애플리케이션에 전체 텍스트 검색 기능을 제공하는 SQLite 가상 테이블 모듈, 가장 기본적인 형태의 전체 텍스트 검색을 통해 사용자는 하나 이상의 검색어 인스턴스를 포함하는 하위 집합에 대한 대규모 문서 모음을 효율적으로 검색할 수 있다. 사용자가 원하는 검색 결과 중 일부의 단어를 포함하는 모든 문서 검색을 할 수 있도록 한다 - [https://www.sqlite.org/fts5.html#the_fts_index_idx_and_data_tables_](https://www.sqlite.org/fts5.html#the_fts_index_idx_and_data_tables_) )
             
-            ![[Untitled 5.png]]
+            ![[ㄷ. 학습/SQLite/이미지/Untitled 5.png]]
             
             ( SQLite 공식 문서에서 검색어를 통한 검색 시 나타나는 문구 )
             
@@ -220,7 +220,7 @@
 	        ( 구문이 추상적이라는 의미는 실제 구문에서 나타나는 모든 세세한 정보를 나타내지는 않는다는 의미이다. 예를 들어, 그룹핑을 위한 괄호는 암시적으로 트리 구조를 가지며, 분리된 노드로 표현되지는 않는다. )
 	        
 	    - 💡 JavaScript 에서의 AST 예 ( [https://yceffort.kr/2021/05/ast-for-javascript](https://yceffort.kr/2021/05/ast-for-javascript) )
-		    ![[Untitled 6.png]]
+		    ![[ㄷ. 학습/SQLite/이미지/Untitled 6.png]]
 		    위의 간단한 코드를 AST로 변환하면
 			![[Untitled 7 2.png]]
 	        …
@@ -318,7 +318,7 @@
     
     - 페이지 캐시 라고도 불린다. 정전 시 데이터 손상을 방지한다. 이를 위해 상호 독립적인 두가지 모드를 사용한다. Roll back 모드 또는 Write Ahead Log(WAL) 모드 또한 이것은 동시 제어를 강제한다. 메모리 내 캐시 처리 담당 관련 파일 : pager.c, pager.h, pcache1.c, pcache.c, pcache.c, pcache.h, wal.c
 5. Shim ( [](https://en.wikipedia.org/wiki/Shim_(computing))[https://en.wikipedia.org/wiki/Shim_(computing)](https://en.wikipedia.org/wiki/Shim_(computing)) )
-    ![[Untitled 10.png]]
+    ![[ㄷ. 학습/SQLite/이미지/Untitled 10.png]]
 
 - 압축, 로깅 및 암호화 담당, OS 계층을 에뮬레이션 하는데 사용한다. 하드웨어 오류를 시뮬레이션 하는 테스크에 사용된다.
 - 컴퓨터 프로그래밍에서 shim은 API 호출을 투명하게 가로채고, 전달 된 인수를 변경하고, 작업 자체를 처리하거나 작업을 다른 곳으로 리디렉션 하는 라이브러리이다.
@@ -433,7 +433,7 @@
             
             이 4개의 1Byte 값을 Big-endian 방식으로 저장하면 아래 그림과 같다.
             
-            ![[Untitled 11.png]]
+            ![[ㄷ. 학습/SQLite/이미지/Untitled 11.png]]
             
         - 평소 숫자를 사용하는 방식인 선형 방식과 같다.
             
@@ -444,7 +444,7 @@
     - Little-endian : 낮은 주소에 데이터의 낮은 바이트부터 저장하는 방식
         
         - 위의 예와는 반대로 저장이 되는 방식이다.
-        ![[Untitled 12.png]]
+        ![[ㄷ. 학습/SQLite/이미지/Untitled 12.png]]
         
         - 평소 사용하는 선형 방식과는 반대되는 개념이다.
         - 물리적으로 데이터 조작, 산술 연산을 수행하는 경우에 유리하다
@@ -484,7 +484,7 @@
             메모리의 낮은 주소에서 높은 주소 방향으로 할당된다.
             
         
-        ![[Untitled 13.png]]
+        ![[ㄷ. 학습/SQLite/이미지/Untitled 13.png]]
         
     
     </aside>

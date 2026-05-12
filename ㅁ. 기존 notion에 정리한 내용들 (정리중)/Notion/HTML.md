@@ -25,7 +25,7 @@
     
     - 결국, HTML을 동적으로, 보다 더 효율적으로 변경하기 위해 HTML Document를 자바스크립트가 이해할 수 있는 객체 형태로 모델링하여 자바스크립트에서 조작할 수 있도록 만든 interface가 DOM의 개념이다.
     
-    ![[Untitled.png]]
+    ![[ㄷ. 학습/SQLite/이미지/Untitled.png]]
     
     > DOM은 프로그래밍 언어는 아니지만, DOM이 없다면 자바스크립트 언어는 웹 페이지 또는 XML 페이지 및 요소들과 관련 된 모델이나 개념들에 대한 정보를 가지지 못한다.
     
@@ -45,6 +45,6 @@
     
     - DOM Tree
     
-    ![[Untitled 1.png]]
+    ![[ㄷ. 학습/SQLite/이미지/Untitled 1.png]]
     
     - event 속성 또한 DOM에 포함된다.
