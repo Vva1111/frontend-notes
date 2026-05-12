@@ -48,7 +48,7 @@
 
 [[여러 개념]]
 
-[[Notion (저장소 백업)/SQLite]]
+[[ㅁ. Notion (저장소 백업)/SQLite]]
 
 ---
 
