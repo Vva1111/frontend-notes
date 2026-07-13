@@ -1,7 +1,7 @@
 
-/root
+/root ( Turborepo 설치 )
 - turbo.json 
-	- build: "dependsOn": ["^build"], "outputs": ["dist/**"]
+	- build: **"dependsOn": ["^build"]**, "outputs": ["dist/**"]
 	
 		- **app1**
 			- packages.json    **<-- root 에서 참조**
