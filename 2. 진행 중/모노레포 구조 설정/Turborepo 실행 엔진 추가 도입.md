@@ -42,7 +42,7 @@ z### Npm WorkSpace 를 사용한 모노레포 구성 완료 후 TurboRepo 추가
 
 3. 설정 파일이 turbo.json 하나 수준이라 팀원들의 러닝커브가 낮다
 
-4. Vite, Vue, TypeScript ㄷㅇㅇ의 JS/TS 프로젝트와 결합이 잘된다.
+4. Vite, Vue, TypeScript 등의 JS/TS 프로젝트와 결합이 잘된다.
 
 5. 로컬/원격 캐시를 지원한다
 
