@@ -16,7 +16,7 @@ $ docker run -d --name gitlab-runner --restart always -v /data/runner/config:/et
 
 ##### 3. gitlab에 runner 등록 (gitlab의 러너 등록방법 내용 참조)
 ```sh
-$ docker exec -it gitlab-runner gitlab-runner register --url https://gitlab.cocoa.icu/ --registration-token GR1348941YujiWqVWL8HEtu4DgRiL
+$ docker exec -it gitlab-runner gitlab-runner register --url https://~~~.com/ --registration-token #HASH
 ```
 - **Gitlab Runner 토큰 등록( GPT )**
 	GitLab Runner를 등록하기 위한 토큰은 GitLab의 프로젝트 설정 또는 GitLab 인스턴스 설정에서 찾을 수 있습니다. 등록 토큰은 Runner를 GitLab 서버에 등록할 때 사용되며, 이를 통해 Runner와 GitLab 사이의 인증을 가능하게 합니다. 토큰을 확인하는 방법은 다음과 같습니다:
